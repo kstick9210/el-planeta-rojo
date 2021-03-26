@@ -49,6 +49,7 @@ export default function MarsScreen() {
                         {earth.deepestCanyon.name} {mars.deepestCanyon.name}{'\n'}
                         {earth.deepestCanyon.depth} {mars.deepestCanyon.depth}{'\n'}{'\n'}
                         Diameter{'\n'}
+                        {earth.diameter}  {mars.diameter}
                     </Text>
                 </View>
             </ScrollView>
@@ -59,12 +60,9 @@ export default function MarsScreen() {
 const styles = StyleSheet.create({
     background: {
         alignItems: 'center',
-        justifyContent: 'center',
-        // height: 20
-        // flex: 2
+        justifyContent: 'center'
     },
     bottom: {
-        // flex: 3,
         // backgroundColor: 'rgb(153, 97, 65)',
         backgroundColor: 'brown',
         alignItems: 'center'
@@ -72,7 +70,7 @@ const styles = StyleSheet.create({
     header: {
         color: 'white',
         fontSize: 30,
-        marginTop: 45
+        marginVertical: 45
     },
     title: {
         color: 'white',
