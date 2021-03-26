@@ -1,0 +1,34 @@
+{
+    "summary": "Mars, often referred to as The Red Planet (El Planeta Rojo in Spanish), is the fourth planet in The Solar System.",
+    "moons": ["Phobos", "Deimos"],
+    "earthVmars": {
+        "earth": {
+            "avgTemp": ["57F", "14C"],
+            "day": "23h 56m",
+            "year": ["365.25 days", "356 sols"],
+            "tallestMtn": {
+                "name": "Mauna Kea",
+                "height": "6.3mi"
+            },
+            "deepestCanyon": {
+                "name": "Grand Canyon",
+                "depth": "1.1mi"
+            },
+            "diameter": "7926mi"
+        },
+        "mars": {
+            "avgTemp": ["-81F", "-63C"],
+            "sol": "24h 37m",
+            "year": ["687 days", "668.59 sols"],
+            "tallestMtn": {
+                "name": "Olympus Mons",
+                "height": "16mi"
+            },
+            "deepestCanyon": {
+                "name": "Valles Marineris",
+                "depth": "4.3mi"
+            },
+            "diameter": "4220mi"
+        }
+    }
+}
