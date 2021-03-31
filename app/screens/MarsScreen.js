@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text, ImageBackground, ScrollView } from 'react-native';
 
-import Screen from '../components/Screen'
 import marsInfo from '../../mars.json'
 const { earthVmars: { earth, mars } } = marsInfo
 

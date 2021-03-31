@@ -30,5 +30,19 @@
             },
             "diameter": "4220mi"
         }
-    }
+    },
+    "rovers": [
+        "Viking 1 & 2",
+        "Mars Pathfinder",
+        "Mars Polar Lander/Deep Space 2",
+        "MER - Spirit",
+        "MER - Opportunity",
+        "Mars Phoenix",
+        "Curiosity Rover",
+        "InSight Lander",
+        "ExoMars 2022 Rover",
+        "Mars Sample Return",
+        "Mars 2020 Perserverance Rover",
+        "Mars Ingenuity Helicopter"
+    ]
 }
