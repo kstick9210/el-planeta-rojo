@@ -25,10 +25,11 @@ export default function RoversLandingScreen() {
 const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
-        backgroundColor: 'sandybrown'
+        backgroundColor: 'dimgrey'
     },
     title: {
-        fontSize: 30
+        fontSize: 30,
+        color: 'whitesmoke'
     },
     buttonWrap: {
         alignItems: 'center',

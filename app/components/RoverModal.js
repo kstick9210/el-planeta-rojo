@@ -35,11 +35,11 @@ export default function RoverModal({ rover, style }) {
 const styles = StyleSheet.create({
     modalView: {
         margin: 20,
-        backgroundColor: "whitesmoke",
+        backgroundColor: 'silver',
         borderRadius: 20,
         padding: 35,
-        alignItems: "center",
-        shadowColor: "#000",
+        alignItems: 'center',
+        shadowColor: '#000',
         shadowOffset: {
           width: 0,
           height: 2
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         margin: 5,
         paddingHorizontal: 5,
-        shadowColor: "#000",
+        shadowColor: '#000',
         shadowOffset: {
             width: 0,
             height: 2
@@ -70,15 +70,15 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         padding: 10,
         elevation: 2,
-        backgroundColor: "#2196F3",
+        backgroundColor: '#008080',
     },
     textStyle: {
-        color: "whitesmoke",
-        fontWeight: "bold",
-        textAlign: "center"
+        color: '#F5F5F5',
+        fontWeight: 'bold',
+        textAlign: 'center'
     },
     modalText: {
         marginBottom: 15,
-        textAlign: "center"
+        textAlign: 'center'
       }
 })
