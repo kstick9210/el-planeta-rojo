@@ -14,10 +14,18 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: 'darkred',
         borderRadius: 25,
+        elevation: 5,
         height: 110,
         justifyContent: 'center',
         margin: 5,
         paddingHorizontal: 5,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2
+        },
+        shadowOpacity: 1,
+        shadowRadius: 4,
         width: 110,
     },
     text: {

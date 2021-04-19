@@ -6,5 +6,6 @@ import RoversLandingScreen from './app/screens/RoversLandingScreen';
 export default function App() {
   return (
     <RoversLandingScreen />
+    // <MarsScreen />
   );
 }
