@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
 import Screen from '../components/Screen';
-import RoverButton from '../components/RoverButton';
+import RoverModal from '../components/RoverModal';
 import marsInfo from '../../mars.json';
 const { rovers } = marsInfo;
 
@@ -12,7 +12,7 @@ export default function RoversLandingScreen() {
             <Text style={styles.title}>Mars Rovers and Landers</Text>
             <View style={styles.buttonWrap}>
                 {rovers.map((rover, idx) => (
-                    <RoverButton 
+                    <RoverModal 
                         rover={rover} 
                         key={idx}
                     />
