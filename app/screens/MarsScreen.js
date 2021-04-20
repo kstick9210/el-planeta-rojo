@@ -62,9 +62,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     bottom: {
+        alignItems: 'center',
         // backgroundColor: 'rgb(153, 97, 65)',
         backgroundColor: 'brown',
-        alignItems: 'center'
+        paddingBottom: 20
     },
     header: {
         color: 'white',
