@@ -1,13 +1,9 @@
 import React from 'react';
 
-import MarsScreen from './app/screens/MarsScreen';
-import RoversLandingScreen from './app/screens/RoversLandingScreen';
-import RoverModal from './app/components/RoverModal';
+import AppNavigator from './app/navigation/AppNavigator'
 
 export default function App() {
   return (
-    <RoversLandingScreen />
-    // <MarsScreen />
-    // <RoverModal />
+    <AppNavigator />
   );
 }
